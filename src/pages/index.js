@@ -1,4 +1,5 @@
 import BarForm from "./component/bar";
+import DoubleLineForm from "./component/doubleLine";
 import HorizonBar from "./component/horizonBar";
 import LineForm from "./component/line";
 
@@ -7,10 +8,18 @@ export default function Home() {
     <div style={{ overflow: "auto" }}>
       <h1>horizonBar</h1>
       <HorizonBar />
+      <br />
+
       <h1>Bar</h1>
       <BarForm />
+      <br />
+
       <h1>Line</h1>
       <LineForm />
+      <br />
+
+      <h1>Double Line</h1>
+      <DoubleLineForm />
     </div>
   );
 }
