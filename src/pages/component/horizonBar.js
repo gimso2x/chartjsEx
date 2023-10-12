@@ -1,7 +1,5 @@
-import React from "react";
 import { Chart as ChartJS, registerables } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { faker } from "@faker-js/faker";
 
 ChartJS.register(...registerables);
 
@@ -32,7 +30,6 @@ const innerBarText = {
 export const options = {
   indexAxis: "y",
   responsive: true,
-  showLine: false,
   scales: {
     x: {
       max: 4000,
