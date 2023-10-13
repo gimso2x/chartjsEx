@@ -10,8 +10,17 @@ export const options = {
   },
   responsive: true,
   scales: {
+    x: {
+      grid: {
+        display: false,
+      },
+    },
     y: {
+      border: {
+        display: false,
+      },
       ticks: {
+        showLine: false,
         beginAtZero: true,
         stepSize: 20,
         maxTicksLimit: 5,

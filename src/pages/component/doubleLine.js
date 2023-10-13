@@ -107,21 +107,31 @@ export default function DoubleLineForm() {
       },
     },
     scales: {
+      x: {
+        grid: {
+          display: false,
+        },
+      },
       y: {
-        display: true,
+        border: {
+          display: false,
+        },
         position: "left",
         ticks: {
           maxTicksLimit: 5,
         },
       },
       y1: {
-        display: true,
+        border: {
+          display: false,
+        },
         position: "right",
         grid: {
           drawOnChartArea: false,
         },
         ticks: {
           maxTicksLimit: 5,
+          // padding: 10,
         },
       },
     },

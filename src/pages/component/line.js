@@ -44,6 +44,9 @@ export default function LineForm(second) {
         },
       },
       y: {
+        border: {
+          display: false,
+        },
         ticks: {
           // stepSize: 15,
           maxTicksLimit: 5,

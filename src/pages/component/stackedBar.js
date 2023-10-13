@@ -24,6 +24,9 @@ export default function StackedBarForm() {
         stacked: true,
       },
       y: {
+        border: {
+          display: false,
+        },
         // stacked: true,
       },
     },
