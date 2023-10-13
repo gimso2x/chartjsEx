@@ -2,6 +2,7 @@ import BarForm from "./component/bar";
 import DoubleLineForm from "./component/doubleLine";
 import HorizonBar from "./component/horizonBar";
 import LineForm from "./component/line";
+import StackedBarForm from "./component/stackedBar";
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
 
       <h1>Double Line</h1>
       <DoubleLineForm />
+      <br />
+
+      <h1>Stacked Bar</h1>
+      <StackedBarForm />
     </div>
   );
 }
